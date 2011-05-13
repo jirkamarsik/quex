@@ -1,6 +1,6 @@
 import sys
 from copy import copy
-from quex.frs_py.file_in import error_msg
+from quex.engine.misc.file_in import error_msg
 
 import StringIO
 
@@ -38,6 +38,9 @@ def unicode_to_utf8(UnicodeValue):
 def unicode_to_pretty_utf8(Code):
     global utf8_char_db
     
+    if Code < 0 or Code > 0x10FFFF: 
+        return "<%i>" % Code
+
     if utf8_char_db.has_key(Code): return utf8_char_db[Code]
     elif Code < ord(' '):          return "\\" + repr(Code) #  from ' ' to '9' things are 'visible'
     else:
