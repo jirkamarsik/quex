@@ -1,0 +1,553 @@
+
+// FileSize: 59918 [Byte] = 58.513672 [kB] = 0.057142 [MB].
+// TokenN: 59917 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  3.700000
+//    Runs:        5600
+//    TimePerRun:  0.000661
+//    Time / Char:         1.102697e-08
+//    Clock Cycles / Char: 20.212444
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.260000
+//    Runs:        5600
+//    TimePerRun:  0.001832
+//    Time / Char:         3.057750e-08
+//    Clock Cycles / Char: 56.048565
+//Result:
+//   Time / Run:          0.001171
+//   Time / Char:         1.955053e-08
+//   Clock Cycles / Char: 35.836121
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {47000},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/many-tiny-tokens.c},
+   file_size    = {59918},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {5600},
+   time_per_repetition        = {0.001171},
+   token_n                    = {59917},
+   clock_cycles_per_character = {35.836121},
+   clock_cycles_per_token     = {35.836716},
+}
+// FileSize: 38149 [Byte] = 37.254883 [kB] = 0.036382 [MB].
+// TokenN: 1 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  0.990000
+//    Runs:        49500
+//    TimePerRun:  0.000020
+//    Time / Char:         5.242601e-10
+//    Clock Cycles / Char: 0.960969
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  9.840000
+//    Runs:        49500
+//    TimePerRun:  0.000199
+//    Time / Char:         5.210828e-09
+//    Clock Cycles / Char: 9.551448
+//Result:
+//   Time / Run:          0.000179
+//   Time / Char:         4.686568e-09
+//   Clock Cycles / Char: 8.590479
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {47000},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/single-large-token.c},
+   file_size    = {38149},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {49500},
+   time_per_repetition        = {0.000179},
+   token_n                    = {1},
+   clock_cycles_per_character = {8.590479},
+   clock_cycles_per_token     = {327718.187500},
+}
+// FileSize: 1585337 [Byte] = 1548.180664 [kB] = 1.511895 [MB].
+// TokenN: 245252 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  1.180000
+//    Runs:        449
+//    TimePerRun:  0.002628
+//    Time / Char:         1.657731e-09
+//    Clock Cycles / Char: 3.038621
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  9.860000
+//    Runs:        449
+//    TimePerRun:  0.021960
+//    Time / Char:         1.385189e-08
+//    Clock Cycles / Char: 25.390511
+//Result:
+//   Time / Run:          0.019332
+//   Time / Char:         1.219416e-08
+//   Clock Cycles / Char: 22.351891
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {47000},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/linux-2.6.22.17-kernel-dir.c},
+   file_size    = {1585337},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {449},
+   time_per_repetition        = {0.019332},
+   token_n                    = {245252},
+   clock_cycles_per_character = {22.351891},
+   clock_cycles_per_token     = {144.485168},
+}
+// FileSize: 59918 [Byte] = 58.513672 [kB] = 0.057142 [MB].
+// TokenN: 59917 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  4.940000
+//    Runs:        7450
+//    TimePerRun:  0.000663
+//    Time / Char:         1.106658e-08
+//    Clock Cycles / Char: 20.285038
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.140000
+//    Runs:        7450
+//    TimePerRun:  0.001361
+//    Time / Char:         2.271561e-08
+//    Clock Cycles / Char: 41.637711
+//Result:
+//   Time / Run:          0.000698
+//   Time / Char:         1.164903e-08
+//   Clock Cycles / Char: 21.352673
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {42804},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/many-tiny-tokens.c},
+   file_size    = {59918},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {false},
+   column_count = {false},
+   note         = {}, 
+   repetition_n               = {7450},
+   time_per_repetition        = {0.000698},
+   token_n                    = {59917},
+   clock_cycles_per_character = {21.352673},
+   clock_cycles_per_token     = {21.353027},
+}
+// FileSize: 38149 [Byte] = 37.254883 [kB] = 0.036382 [MB].
+// TokenN: 1 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  0.960000
+//    Runs:        47800
+//    TimePerRun:  0.000020
+//    Time / Char:         5.264537e-10
+//    Clock Cycles / Char: 0.964990
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.170000
+//    Runs:        47800
+//    TimePerRun:  0.000213
+//    Time / Char:         5.577119e-09
+//    Clock Cycles / Char: 10.222858
+//Result:
+//   Time / Run:          0.000193
+//   Time / Char:         5.050665e-09
+//   Clock Cycles / Char: 9.257869
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {42804},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/single-large-token.c},
+   file_size    = {38149},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {false},
+   column_count = {false},
+   note         = {}, 
+   repetition_n               = {47800},
+   time_per_repetition        = {0.000193},
+   token_n                    = {1},
+   clock_cycles_per_character = {9.257869},
+   clock_cycles_per_token     = {353178.437500},
+}
+// FileSize: 1585337 [Byte] = 1548.180664 [kB] = 1.511895 [MB].
+// TokenN: 245252 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  1.490000
+//    Runs:        571
+//    TimePerRun:  0.002609
+//    Time / Char:         1.645995e-09
+//    Clock Cycles / Char: 3.017109
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.390000
+//    Runs:        571
+//    TimePerRun:  0.018196
+//    Time / Char:         1.147778e-08
+//    Clock Cycles / Char: 21.038769
+//Result:
+//   Time / Run:          0.015587
+//   Time / Char:         9.831783e-09
+//   Clock Cycles / Char: 18.021660
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {42804},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/linux-2.6.22.17-kernel-dir.c},
+   file_size    = {1585337},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {false},
+   column_count = {false},
+   note         = {}, 
+   repetition_n               = {571},
+   time_per_repetition        = {0.015587},
+   token_n                    = {245252},
+   clock_cycles_per_character = {18.021660},
+   clock_cycles_per_token     = {116.494064},
+}
+// FileSize: 59918 [Byte] = 58.513672 [kB] = 0.057142 [MB].
+// TokenN: 59917 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  3.860000
+//    Runs:        5800
+//    TimePerRun:  0.000666
+//    Time / Char:         1.110713e-08
+//    Clock Cycles / Char: 20.359377
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.630000
+//    Runs:        5800
+//    TimePerRun:  0.001833
+//    Time / Char:         3.058778e-08
+//    Clock Cycles / Char: 56.067402
+//Result:
+//   Time / Run:          0.001167
+//   Time / Char:         1.948065e-08
+//   Clock Cycles / Char: 35.708027
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {47000},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/many-tiny-tokens.c},
+   file_size    = {59918},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {5800},
+   time_per_repetition        = {0.001167},
+   token_n                    = {59917},
+   clock_cycles_per_character = {35.708027},
+   clock_cycles_per_token     = {35.708622},
+}
+// FileSize: 38149 [Byte] = 37.254883 [kB] = 0.036382 [MB].
+// TokenN: 1 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  1.000000
+//    Runs:        50199
+//    TimePerRun:  0.000020
+//    Time / Char:         5.221819e-10
+//    Clock Cycles / Char: 0.957159
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.010000
+//    Runs:        50199
+//    TimePerRun:  0.000199
+//    Time / Char:         5.227041e-09
+//    Clock Cycles / Char: 9.581165
+//Result:
+//   Time / Run:          0.000179
+//   Time / Char:         4.704859e-09
+//   Clock Cycles / Char: 8.624005
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {47000},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/single-large-token.c},
+   file_size    = {38149},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {50199},
+   time_per_repetition        = {0.000179},
+   token_n                    = {1},
+   clock_cycles_per_character = {8.624005},
+   clock_cycles_per_token     = {328997.187500},
+}
+// FileSize: 1585337 [Byte] = 1548.180664 [kB] = 1.511895 [MB].
+// TokenN: 245252 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  1.240000
+//    Runs:        476
+//    TimePerRun:  0.002605
+//    Time / Char:         1.643210e-09
+//    Clock Cycles / Char: 3.012004
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.470000
+//    Runs:        476
+//    TimePerRun:  0.021996
+//    Time / Char:         1.387453e-08
+//    Clock Cycles / Char: 25.432005
+//Result:
+//   Time / Run:          0.019391
+//   Time / Char:         1.223131e-08
+//   Clock Cycles / Char: 22.420000
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {47000},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/linux-2.6.22.17-kernel-dir.c},
+   file_size    = {1585337},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {476},
+   time_per_repetition        = {0.019391},
+   token_n                    = {245252},
+   clock_cycles_per_character = {22.420000},
+   clock_cycles_per_token     = {144.925446},
+}
+// FileSize: 59918 [Byte] = 58.513672 [kB] = 0.057142 [MB].
+// TokenN: 59917 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  4.910000
+//    Runs:        7350
+//    TimePerRun:  0.000668
+//    Time / Char:         1.114902e-08
+//    Clock Cycles / Char: 20.436161
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  9.950000
+//    Runs:        7350
+//    TimePerRun:  0.001354
+//    Time / Char:         2.259324e-08
+//    Clock Cycles / Char: 41.413403
+//Result:
+//   Time / Run:          0.000686
+//   Time / Char:         1.144421e-08
+//   Clock Cycles / Char: 20.977240
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {42804},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/many-tiny-tokens.c},
+   file_size    = {59918},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {false},
+   column_count = {false},
+   note         = {}, 
+   repetition_n               = {7350},
+   time_per_repetition        = {0.000686},
+   token_n                    = {59917},
+   clock_cycles_per_character = {20.977240},
+   clock_cycles_per_token     = {20.977591},
+}
+// FileSize: 38149 [Byte] = 37.254883 [kB] = 0.036382 [MB].
+// TokenN: 1 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  0.920000
+//    Runs:        46750
+//    TimePerRun:  0.000020
+//    Time / Char:         5.158495e-10
+//    Clock Cycles / Char: 0.945552
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  9.990000
+//    Runs:        46750
+//    TimePerRun:  0.000214
+//    Time / Char:         5.601453e-09
+//    Clock Cycles / Char: 10.267464
+//Result:
+//   Time / Run:          0.000194
+//   Time / Char:         5.085603e-09
+//   Clock Cycles / Char: 9.321912
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {42804},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/single-large-token.c},
+   file_size    = {38149},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {false},
+   column_count = {false},
+   note         = {}, 
+   repetition_n               = {46750},
+   time_per_repetition        = {0.000194},
+   token_n                    = {1},
+   clock_cycles_per_character = {9.321912},
+   clock_cycles_per_token     = {355621.593750},
+}
+// FileSize: 1585337 [Byte] = 1548.180664 [kB] = 1.511895 [MB].
+// TokenN: 245252 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  1.500000
+//    Runs:        571
+//    TimePerRun:  0.002627
+//    Time / Char:         1.657042e-09
+//    Clock Cycles / Char: 3.037358
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.370000
+//    Runs:        571
+//    TimePerRun:  0.018161
+//    Time / Char:         1.145568e-08
+//    Clock Cycles / Char: 20.998270
+//Result:
+//   Time / Run:          0.015534
+//   Time / Char:         9.798643e-09
+//   Clock Cycles / Char: 17.960913
+{
+   generator       = {quex},
+   quex_version    = {0.48.3b},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {42804},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {5}
+   day          = {31}
+   file_name    = {code/linux-2.6.22.17-kernel-dir.c},
+   file_size    = {1585337},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {false},
+   column_count = {false},
+   note         = {}, 
+   repetition_n               = {571},
+   time_per_repetition        = {0.015534},
+   token_n                    = {245252},
+   clock_cycles_per_character = {17.960913},
+   clock_cycles_per_token     = {116.101387},
+}

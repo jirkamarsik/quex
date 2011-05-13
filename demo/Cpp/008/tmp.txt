@@ -1,0 +1,837 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i686-pc-linux-gnu
+Reading makefiles...
+Reading makefile `Makefile'...
+Updating makefiles....
+ Considering target file `Makefile'.
+  Looking for an implicit rule for `Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `SCCS/s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Looking for a rule with intermediate file `Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `s.Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `SCCS/s.Makefile.o'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Looking for a rule with intermediate file `Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `s.Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Looking for a rule with intermediate file `Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `s.Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `SCCS/s.Makefile.c'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Looking for a rule with intermediate file `Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `s.Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `SCCS/s.Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Looking for a rule with intermediate file `Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `s.Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `SCCS/s.Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Looking for a rule with intermediate file `Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `s.Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `SCCS/s.Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Rejecting impossible implicit prerequisite `Makefile.w'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Looking for a rule with intermediate file `Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `s.Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Looking for a rule with intermediate file `Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `s.Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `SCCS/s.Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Looking for a rule with intermediate file `Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `s.Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `SCCS/s.Makefile.p'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Looking for a rule with intermediate file `Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `s.Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `SCCS/s.Makefile.web'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Looking for a rule with intermediate file `Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `s.Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `SCCS/s.Makefile.f'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Looking for a rule with intermediate file `Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `s.Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `SCCS/s.Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Looking for a rule with intermediate file `Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile'.
+     Rejecting impossible implicit prerequisite `Makefile.l'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `s.Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `SCCS/s.Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Looking for a rule with intermediate file `Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `s.Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `SCCS/s.Makefile.s'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Looking for a rule with intermediate file `Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `s.Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `SCCS/s.Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Looking for a rule with intermediate file `Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `s.Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Looking for a rule with intermediate file `Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `s.Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `SCCS/s.Makefile.sh'.
+  No implicit rule found for `Makefile'.
+  Finished prerequisites of target file `Makefile'.
+ No need to remake target `Makefile'.
+Updating goal targets....
+Considering target file `lexer'.
+ File `lexer' does not exist.
+  Considering target file `main.o'.
+   File `main.o' does not exist.
+   Looking for an implicit rule for `main.o'.
+   Trying pattern rule with stem `main'.
+   Trying implicit prerequisite `main.cpp'.
+   Trying rule prerequisite `Calc_lexer'.
+   Trying rule prerequisite `Calc_parser.tab.hpp'.
+   Found an implicit rule for `main.o'.
+    Considering target file `main.cpp'.
+     Looking for an implicit rule for `main.cpp'.
+     Trying pattern rule with stem `main.cpp'.
+     Trying implicit prerequisite `main.cpp,v'.
+     Trying pattern rule with stem `main.cpp'.
+     Trying implicit prerequisite `RCS/main.cpp,v'.
+     Trying pattern rule with stem `main.cpp'.
+     Trying implicit prerequisite `RCS/main.cpp'.
+     Trying pattern rule with stem `main.cpp'.
+     Trying implicit prerequisite `s.main.cpp'.
+     Trying pattern rule with stem `main.cpp'.
+     Trying implicit prerequisite `SCCS/s.main.cpp'.
+     No implicit rule found for `main.cpp'.
+     Finished prerequisites of target file `main.cpp'.
+    No need to remake target `main.cpp'.
+    Considering target file `Calc_lexer'.
+     Looking for an implicit rule for `Calc_lexer'.
+     Trying pattern rule with stem `Calc_lexer'.
+     Trying implicit prerequisite `Calc_lexer.o'.
+     Trying pattern rule with stem `Calc_lexer'.
+     Trying implicit prerequisite `Calc_lexer.c'.
+     Trying pattern rule with stem `Calc_lexer'.
+     Trying implicit prerequisite `Calc_lexer.cc'.
+     Trying pattern rule with stem `Calc_lexer'.
+     Trying implicit prerequisite `Calc_lexer.C'.
+     Trying pattern rule with stem `Calc_lexer'.
+     Trying implicit prerequisite `Calc_lexer.cpp'.
+     Found an implicit rule for `Calc_lexer'.
+      Considering target file `Calc_lexer.cpp'.
+       Looking for an implicit rule for `Calc_lexer.cpp'.
+       Trying pattern rule with stem `Calc_lexer.cpp'.
+       Trying implicit prerequisite `Calc_lexer.cpp,v'.
+       Trying pattern rule with stem `Calc_lexer.cpp'.
+       Trying implicit prerequisite `RCS/Calc_lexer.cpp,v'.
+       Trying pattern rule with stem `Calc_lexer.cpp'.
+       Trying implicit prerequisite `RCS/Calc_lexer.cpp'.
+       Trying pattern rule with stem `Calc_lexer.cpp'.
+       Trying implicit prerequisite `s.Calc_lexer.cpp'.
+       Trying pattern rule with stem `Calc_lexer.cpp'.
+       Trying implicit prerequisite `SCCS/s.Calc_lexer.cpp'.
+       No implicit rule found for `Calc_lexer.cpp'.
+        Considering target file `GENERATE_LEXER'.
+         File `GENERATE_LEXER' does not exist.
+          Considering target file `Calc_lexer.qx'.
+           Looking for an implicit rule for `Calc_lexer.qx'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.o'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.c'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.cc'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.C'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.cpp'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.p'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.f'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.F'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.r'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.s'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.S'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.mod'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.sh'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx,v'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `RCS/Calc_lexer.qx,v'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `RCS/Calc_lexer.qx'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `s.Calc_lexer.qx'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `SCCS/s.Calc_lexer.qx'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.o'.
+           Looking for a rule with intermediate file `Calc_lexer.qx.o'.
+            Avoiding implicit rule recursion.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.cpp'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.c'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.cc'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.C'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.cpp'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.p'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.f'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.F'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.r'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.s'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.S'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.mod'.
+            Trying pattern rule with stem `Calc_lexer.qx.o'.
+            Trying implicit prerequisite `Calc_lexer.qx.o,v'.
+            Trying pattern rule with stem `Calc_lexer.qx.o'.
+            Trying implicit prerequisite `RCS/Calc_lexer.qx.o,v'.
+            Trying pattern rule with stem `Calc_lexer.qx.o'.
+            Trying implicit prerequisite `RCS/Calc_lexer.qx.o'.
+            Trying pattern rule with stem `Calc_lexer.qx.o'.
+            Trying implicit prerequisite `s.Calc_lexer.qx.o'.
+            Trying pattern rule with stem `Calc_lexer.qx.o'.
+            Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.o'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.cpp'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.cpp'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx.cpp'.
+             Trying implicit prerequisite `Calc_lexer.qx.cpp,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.cpp'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.cpp,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.cpp'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.cpp'.
+             Trying pattern rule with stem `Calc_lexer.qx.cpp'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.cpp'.
+             Trying pattern rule with stem `Calc_lexer.qx.cpp'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.cpp'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.c'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.c'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.y'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.l'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.w'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.w'.
+             Trying pattern rule with stem `Calc_lexer.qx.c'.
+             Trying implicit prerequisite `Calc_lexer.qx.c,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.c'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.c,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.c'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.c'.
+             Trying pattern rule with stem `Calc_lexer.qx.c'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.c'.
+             Trying pattern rule with stem `Calc_lexer.qx.c'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.c'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.y'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.y'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx.y'.
+              Trying implicit prerequisite `Calc_lexer.qx.y,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.y'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.y,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.y'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.y'.
+              Trying pattern rule with stem `Calc_lexer.qx.y'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.y'.
+              Trying pattern rule with stem `Calc_lexer.qx.y'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.y'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.l'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.l'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx.l'.
+              Trying implicit prerequisite `Calc_lexer.qx.l,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.l'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.l,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.l'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.l'.
+              Trying pattern rule with stem `Calc_lexer.qx.l'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.l'.
+              Trying pattern rule with stem `Calc_lexer.qx.l'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.l'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.w'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.w'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx.w'.
+              Trying implicit prerequisite `Calc_lexer.qx.w,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.w'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.w,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.w'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.w'.
+              Trying pattern rule with stem `Calc_lexer.qx.w'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.w'.
+              Trying pattern rule with stem `Calc_lexer.qx.w'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.w'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Rejecting impossible implicit prerequisite `Calc_lexer.qx.w'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.cc'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.cc'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx.cc'.
+             Trying implicit prerequisite `Calc_lexer.qx.cc,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.cc'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.cc,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.cc'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.cc'.
+             Trying pattern rule with stem `Calc_lexer.qx.cc'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.cc'.
+             Trying pattern rule with stem `Calc_lexer.qx.cc'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.cc'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.C'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.C'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx.C'.
+             Trying implicit prerequisite `Calc_lexer.qx.C,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.C'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.C,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.C'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.C'.
+             Trying pattern rule with stem `Calc_lexer.qx.C'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.C'.
+             Trying pattern rule with stem `Calc_lexer.qx.C'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.C'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Rejecting impossible implicit prerequisite `Calc_lexer.qx.cpp'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.p'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.p'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.web'.
+             Trying pattern rule with stem `Calc_lexer.qx.p'.
+             Trying implicit prerequisite `Calc_lexer.qx.p,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.p'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.p,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.p'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.p'.
+             Trying pattern rule with stem `Calc_lexer.qx.p'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.p'.
+             Trying pattern rule with stem `Calc_lexer.qx.p'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.p'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.web'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.web'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx.web'.
+              Trying implicit prerequisite `Calc_lexer.qx.web,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.web'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.web,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.web'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.web'.
+              Trying pattern rule with stem `Calc_lexer.qx.web'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.web'.
+              Trying pattern rule with stem `Calc_lexer.qx.web'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.web'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.f'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.f'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.F'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.r'.
+             Trying pattern rule with stem `Calc_lexer.qx.f'.
+             Trying implicit prerequisite `Calc_lexer.qx.f,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.f'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.f,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.f'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.f'.
+             Trying pattern rule with stem `Calc_lexer.qx.f'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.f'.
+             Trying pattern rule with stem `Calc_lexer.qx.f'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.f'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.F'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.F'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx.F'.
+              Trying implicit prerequisite `Calc_lexer.qx.F,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.F'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.F,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.F'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.F'.
+              Trying pattern rule with stem `Calc_lexer.qx.F'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.F'.
+              Trying pattern rule with stem `Calc_lexer.qx.F'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.F'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.r'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.r'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx'.
+              Rejecting impossible implicit prerequisite `Calc_lexer.qx.l'.
+              Trying pattern rule with stem `Calc_lexer.qx.r'.
+              Trying implicit prerequisite `Calc_lexer.qx.r,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.r'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.r,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.r'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.r'.
+              Trying pattern rule with stem `Calc_lexer.qx.r'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.r'.
+              Trying pattern rule with stem `Calc_lexer.qx.r'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.r'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Rejecting impossible implicit prerequisite `Calc_lexer.qx.F'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Rejecting impossible implicit prerequisite `Calc_lexer.qx.r'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.s'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.s'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.S'.
+             Trying pattern rule with stem `Calc_lexer.qx.s'.
+             Trying implicit prerequisite `Calc_lexer.qx.s,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.s'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.s,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.s'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.s'.
+             Trying pattern rule with stem `Calc_lexer.qx.s'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.s'.
+             Trying pattern rule with stem `Calc_lexer.qx.s'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.s'.
+             Trying pattern rule with stem `Calc_lexer.qx'.
+             Trying implicit prerequisite `Calc_lexer.qx.S'.
+             Looking for a rule with intermediate file `Calc_lexer.qx.S'.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Avoiding implicit rule recursion.
+              Trying pattern rule with stem `Calc_lexer.qx.S'.
+              Trying implicit prerequisite `Calc_lexer.qx.S,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.S'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.S,v'.
+              Trying pattern rule with stem `Calc_lexer.qx.S'.
+              Trying implicit prerequisite `RCS/Calc_lexer.qx.S'.
+              Trying pattern rule with stem `Calc_lexer.qx.S'.
+              Trying implicit prerequisite `s.Calc_lexer.qx.S'.
+              Trying pattern rule with stem `Calc_lexer.qx.S'.
+              Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.S'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Rejecting impossible implicit prerequisite `Calc_lexer.qx.S'.
+            Trying pattern rule with stem `Calc_lexer.qx'.
+            Trying implicit prerequisite `Calc_lexer.qx.mod'.
+            Looking for a rule with intermediate file `Calc_lexer.qx.mod'.
+             Avoiding implicit rule recursion.
+             Avoiding implicit rule recursion.
+             Trying pattern rule with stem `Calc_lexer.qx.mod'.
+             Trying implicit prerequisite `Calc_lexer.qx.mod,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.mod'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.mod,v'.
+             Trying pattern rule with stem `Calc_lexer.qx.mod'.
+             Trying implicit prerequisite `RCS/Calc_lexer.qx.mod'.
+             Trying pattern rule with stem `Calc_lexer.qx.mod'.
+             Trying implicit prerequisite `s.Calc_lexer.qx.mod'.
+             Trying pattern rule with stem `Calc_lexer.qx.mod'.
+             Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.mod'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.c'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.cc'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.C'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.cpp'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.p'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.f'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.F'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.r'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.s'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.S'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Rejecting impossible implicit prerequisite `Calc_lexer.qx.mod'.
+           Trying pattern rule with stem `Calc_lexer.qx'.
+           Trying implicit prerequisite `Calc_lexer.qx.sh'.
+           Looking for a rule with intermediate file `Calc_lexer.qx.sh'.
+            Avoiding implicit rule recursion.
+            Trying pattern rule with stem `Calc_lexer.qx.sh'.
+            Trying implicit prerequisite `Calc_lexer.qx.sh,v'.
+            Trying pattern rule with stem `Calc_lexer.qx.sh'.
+            Trying implicit prerequisite `RCS/Calc_lexer.qx.sh,v'.
+            Trying pattern rule with stem `Calc_lexer.qx.sh'.
+            Trying implicit prerequisite `RCS/Calc_lexer.qx.sh'.
+            Trying pattern rule with stem `Calc_lexer.qx.sh'.
+            Trying implicit prerequisite `s.Calc_lexer.qx.sh'.
+            Trying pattern rule with stem `Calc_lexer.qx.sh'.
+            Trying implicit prerequisite `SCCS/s.Calc_lexer.qx.sh'.
+           No implicit rule found for `Calc_lexer.qx'.
+           Finished prerequisites of target file `Calc_lexer.qx'.
+          No need to remake target `Calc_lexer.qx'.
+         Finished prerequisites of target file `GENERATE_LEXER'.
+        Must remake target `GENERATE_LEXER'.
+quex -i Calc_lexer.qx --engine Calc_lexer --token-prefix TKN_ \
+          --foreign-token-id-file Calc_token-ids.h
+Putting child 0x09f8f428 (GENERATE_LEXER) PID 10824 on the chain.
+Live child 0x09f8f428 (GENERATE_LEXER) PID 10824 
+Reaping winning child 0x09f8f428 PID 10824 
+Removing child 0x09f8f428 PID 10824 from chain.
+        Successfully remade target file `GENERATE_LEXER'.
+       Finished prerequisites of target file `Calc_lexer.cpp'.
+       Prerequisite `GENERATE_LEXER' of target `Calc_lexer.cpp' does not exist.
+      No commands for `Calc_lexer.cpp' and no prerequisites actually changed.
+      No need to remake target `Calc_lexer.cpp'.
+      Pruning file `GENERATE_LEXER'.
+     Finished prerequisites of target file `Calc_lexer'.
+     Prerequisite `Calc_lexer.cpp' is older than target `Calc_lexer'.
+     Prerequisite `GENERATE_LEXER' of target `Calc_lexer' does not exist.
+    Must remake target `Calc_lexer'.
+g++     Calc_lexer.cpp GENERATE_LEXER   -o Calc_lexer
+Putting child 0x09f8f460 (Calc_lexer) PID 10825 on the chain.
+Live child 0x09f8f460 (Calc_lexer) PID 10825 
+Reaping losing child 0x09f8f460 PID 10825 
+Removing child 0x09f8f460 PID 10825 from chain.

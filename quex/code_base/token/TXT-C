@@ -1,0 +1,54 @@
+/* -*- C++ -*-   vim: set syntax=cpp: 
+ * (C) 2004-2009 Frank-Rene Schaefer
+ * ABSOLUTELY NO WARRANTY
+ */
+#ifndef __QUEX_INCLUDE_GUARD__TOKEN__GENERATED__$$INCLUDE_GUARD_EXTENSION$$
+#define __QUEX_INCLUDE_GUARD__TOKEN__GENERATED__$$INCLUDE_GUARD_EXTENSION$$
+
+#include <quex/code_base/definitions>
+
+$$HEADER$$
+ 
+typedef struct $$TOKEN_CLASS$$_tag {
+    QUEX_TYPE_TOKEN_ID    _id;
+$$DISTINCT_MEMBERS$$
+$$UNION_MEMBERS$$
+#   ifdef     QUEX_OPTION_TOKEN_STAMPING_WITH_LINE_AND_COLUMN
+#       ifdef QUEX_OPTION_LINE_NUMBER_COUNTING
+        QUEX_TYPE_TOKEN_LINE_N    _line_n;
+#       endif
+#       ifdef  QUEX_OPTION_COLUMN_NUMBER_COUNTING
+        QUEX_TYPE_TOKEN_COLUMN_N  _column_n;
+#       endif
+#   endif
+$$BODY$$
+} $$TOKEN_CLASS$$;
+
+QUEX_INLINE void QUEX_NAME_TOKEN(construct)(QUEX_TYPE_TOKEN*);
+QUEX_INLINE void QUEX_NAME_TOKEN(copy_construct)(QUEX_TYPE_TOKEN*, 
+                                                  const QUEX_TYPE_TOKEN*);
+QUEX_INLINE void QUEX_NAME_TOKEN(copy)(QUEX_TYPE_TOKEN*, 
+                                        const QUEX_TYPE_TOKEN*);
+QUEX_INLINE void QUEX_NAME_TOKEN(destruct)(QUEX_TYPE_TOKEN*);
+
+/* NOTE: Setters and getters as in the C++ version of the token class are not
+ *       necessary, since the members are accessed directly.                   */
+
+QUEX_INLINE void 
+QUEX_NAME_TOKEN(_set)(QUEX_TYPE_TOKEN*         __this, 
+                      const QUEX_TYPE_TOKEN_ID ID);
+
+extern const char*  QUEX_NAME_TOKEN(map_id_to_name)(const QUEX_TYPE_TOKEN_ID);
+
+QUEX_INLINE bool 
+QUEX_NAME_TOKEN(take_text)(QUEX_TYPE_TOKEN*           __this, 
+                           QUEX_TYPE_ANALYZER*        analyzer, 
+                           const QUEX_TYPE_CHARACTER* Begin, const QUEX_TYPE_CHARACTER* End);
+
+#ifdef QUEX_OPTION_TOKEN_REPETITION_SUPPORT
+QUEX_INLINE size_t QUEX_NAME_TOKEN(repetition_n_get)(QUEX_TYPE_TOKEN*);
+QUEX_INLINE void   QUEX_NAME_TOKEN(repetition_n_set)(QUEX_TYPE_TOKEN*, size_t);
+#endif /* QUEX_OPTION_TOKEN_REPETITION_SUPPORT */
+
+
+#endif /* __QUEX_INCLUDE_GUARD__TOKEN__GENERATED__$$INCLUDE_GUARD_EXTENSION$$ */

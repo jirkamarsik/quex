@@ -1,0 +1,31 @@
+# Describes mapping from Unicode Code pointer to Character code in cp1253 (['Greek'])
+# [SourceInterval.begin] [SourceInterval.Size]  [TargetInterval.begin] (all in hexidecimal)
+0 80 0
+A0 1 A0
+A3 7 A3
+AB 4 AB
+B0 4 B0
+B5 3 B5
+BB 1 BB
+BD 1 BD
+192 1 83
+384 1 B4
+385 2 A1
+388 3 B8
+38C 1 BC
+38E 14 BE
+3A3 2C D3
+2013 2 96
+2015 1 AF
+2018 2 91
+201A 1 82
+201C 2 93
+201E 1 84
+2020 2 86
+2022 1 95
+2026 1 85
+2030 1 89
+2039 1 8B
+203A 1 9B
+20AC 1 80
+2122 1 99

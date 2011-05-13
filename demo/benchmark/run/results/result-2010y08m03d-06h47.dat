@@ -1,0 +1,93 @@
+
+// FileSize: 59918 [Byte] = 58.513672 [kB] = 0.057142 [MB].
+// TokenN: 59917 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  3.770000
+//    Runs:        5650
+//    TimePerRun:  0.000667
+//    Time / Char:         1.113616e-08
+//    Clock Cycles / Char: 20.412588
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  11.000000
+//    Runs:        5650
+//    TimePerRun:  0.001947
+//    Time / Char:         3.249279e-08
+//    Clock Cycles / Char: 59.559273
+//Result:
+//   Time / Run:          0.001280
+//   Time / Char:         2.135662e-08
+//   Clock Cycles / Char: 39.146687
+{
+   generator       = {quex},
+   quex_version    = {0.50.1},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {52728},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {8}
+   day          = {3}
+   file_name    = {code/many-tiny-tokens.c},
+   file_size    = {59918},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {5650},
+   time_per_repetition        = {0.001280},
+   token_n                    = {59917},
+   clock_cycles_per_character = {39.146687},
+   clock_cycles_per_token     = {39.147339},
+}
+// FileSize: 38149 [Byte] = 37.254883 [kB] = 0.036382 [MB].
+// TokenN: 1 [1]
+// Benchmark Results 'only overhead'
+//    Total Time:  0.930000
+//    Runs:        46849
+//    TimePerRun:  0.000020
+//    Time / Char:         5.203547e-10
+//    Clock Cycles / Char: 0.953810
+// Benchmark Results 'analyzis + overhead'
+//    Total Time:  10.000000
+//    Runs:        46849
+//    TimePerRun:  0.000213
+//    Time / Char:         5.595211e-09
+//    Clock Cycles / Char: 10.256022
+//Result:
+//   Time / Run:          0.000194
+//   Time / Char:         5.074857e-09
+//   Clock Cycles / Char: 9.302213
+{
+   generator       = {quex},
+   quex_version    = {0.50.1},
+   cpu_name        = {CPU_NAME},
+   cpu_code        = {CPU_CODE},
+   cpu_freq_mhz    = {1833.000000},
+   cc_name         = {CC_NAME},
+   cc_version      = {CC_VERSION},
+   cc_opt_flags    = {CC_OPTIMIZATION_FLAGS},
+   executable_size = {52728},
+   os_name         = {Linux 2.6.25.20-0.7-pae},
+   tester_email    = {fschaef@users.sourceforge.net},
+   year         = {2010}
+   month        = {8}
+   day          = {3}
+   file_name    = {code/single-large-token.c},
+   file_size    = {38149},
+   char_size    = {1},
+   buffer_size  = {65536},
+   line_count   = {true},
+   column_count = {true},
+   note         = {}, 
+   repetition_n               = {46849},
+   time_per_repetition        = {0.000194},
+   token_n                    = {1},
+   clock_cycles_per_character = {9.302213},
+   clock_cycles_per_token     = {354870.125000},
+}

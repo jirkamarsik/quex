@@ -1,0 +1,10 @@
+# Describes mapping from Unicode Code pointer to Character code in iso8859_6 (['Arabic'])
+# [SourceInterval.begin] [SourceInterval.Size]  [TargetInterval.begin] (all in hexidecimal)
+0 A1 0
+A4 1 A4
+AD 1 AD
+60C 1 AC
+61B 1 BB
+61F 1 BF
+621 1A C1
+640 13 E0

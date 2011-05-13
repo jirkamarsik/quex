@@ -1,0 +1,12 @@
+# Describes mapping from Unicode Code pointer to Character code in cp874 (['Thai'])
+# [SourceInterval.begin] [SourceInterval.Size]  [TargetInterval.begin] (all in hexidecimal)
+0 80 0
+A0 1 A0
+E01 3A A1
+E3F 1D DF
+2013 2 96
+2018 2 91
+201C 2 93
+2022 1 95
+2026 1 85
+20AC 1 80

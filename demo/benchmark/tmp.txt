@@ -1,0 +1,12 @@
+quex -i in/quex/c.qx \
+         --foreign-token-id-file  in/token-ids.h \
+	     --output-directory       out            \
+		 --engine                 quex_scan      \
+		 --no-string-accumulator                 \
+		 --token-id-offset        3              \
+		 --token-prefix           TKN_           \
+	     --token-policy           single         
+
+command line: #
+command line: # Keyboard interrupt -- exiting while processing unfinished.
+command line: #

@@ -1,0 +1,28 @@
+
+
+  STATE:
+
+     ACCEPTANCE_INFO:
+                 dominating_acceptance_id = ...
+                 last_acceptance_pos      = tell
+
+     INPUT:      [increment pointer]
+                 input = *pointer
+
+     TRANSITION:
+
+                 Binary Map:
+
+                 input ---> goto FOLLOW_UP_STATE
+                 input ---> goto DIRECT_DROP_OUT
+                 input ---> goto DROP_OUT
+                 input ---> goto DIRECT_TERMINAL (plus increment)
+
+     DROP_OUT:
+
+                 input == Buffer Limit Code ?
+                     reload buffer         ---> goto STATE  (try again with new input)
+                 else:
+                     acceptance determined ---> goto TERMINAL
+                     else                  ---> goto TERMINAL_ROUTER
+                     

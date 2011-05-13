@@ -1,0 +1,35 @@
+quex -i                 simple.qx  \
+	     --engine           EasyLexer  \
+		 --token-id-offset     0x1000  \
+		 --language         C          
+Traceback (most recent call last):
+  File "/home/fschaef/prj/bin//quex", line 88, in <module>
+    if Setup.plot_graphic_format == "": core.do()       # 'normal' code generation
+  File "/home/fschaef/prj/quex/trunk/quex/core.py", line 73, in do
+    code = get_code_for_mode(mode, mode_name_list, IndentationSupportF) 
+  File "/home/fschaef/prj/quex/trunk/quex/core.py", line 180, in get_code_for_mode
+    RequiredLocalVariablesDB       = required_local_variables_db)
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/core.py", line 182, in do
+    PrintStateMachineF, StandAloneAnalyserF).do(RequiredLocalVariablesDB)
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/core.py", line 124, in do
+    state_info_list = self.__get_core_state_machine()
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/core.py", line 56, in __get_core_state_machine
+    msg, db, routed_state_info_list = state_machine_coder.do(decorated_state_machine)
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/state_machine_coder.py", line 70, in do
+    state_code = state_coder.do(state, state_index, SMD)
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/state_coder/core.py", line 52, in do
+    transition_block.do(TriggerMap, StateIdx, SMD) + \
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/state_coder/transition_block.py", line 76, in do
+    TriggerMap = __interpret(TriggerMap, StateIdx, DSM)
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/state_coder/transition_block.py", line 29, in __interpret
+    target = TriggerAction(transition.get_transition_to_drop_out(CurrentStateIdx, ReloadF=False),
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/state_coder/transition.py", line 32, in get_transition_to_drop_out
+    return LanguageDB["$goto-pure"](get_label_of_drop_out(CurrentStateIdx, ReloadF))
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/state_coder/transition.py", line 66, in get_label_of_drop_out
+    return LanguageDB["$label"]("$drop-out-direct", CurrentStateIdx)
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/languages/core.py", line 204, in <lambda>
+    "$label":                lambda Type, Argument: label_db_get(Type, Argument, GotoTargetF=True),
+  File "/home/fschaef/prj/quex/trunk/quex/core_engine/generator/languages/core.py", line 68, in label_db_get
+    assert label != "STATE_237_DROP_OUT_DIRECT"
+AssertionError
+make: *** [EasyLexer.c] Error 1
