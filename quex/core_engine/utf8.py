@@ -1,6 +1,6 @@
 import sys
 from copy import copy
-from quex.engine.misc.file_in import error_msg
+from quex.frs_py.file_in import error_msg
 
 import StringIO
 
